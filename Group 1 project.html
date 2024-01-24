@@ -1,0 +1,586 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+
+  
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  
+ 
+  text-align: center;
+  color: yellow;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 55px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+    .imgstyle1{
+	 width: 400px;
+	 height: 200px;
+	 transition: width 500ms ease, height 300ms ease;
+	 }
+	 
+	 .imgstyle1:hover{
+	  width: 600px;
+	  height: 400px;
+	  }
+ }
+
+    .imgstyle2{
+	 width: 200px;
+	 height: 200px;
+	 transition: width 300ms ease, height 200ms ease;
+	 }
+	 
+	 .imgstyle2:hover{
+	  width: 400px;
+	  height: 300px;
+	  }
+	  
+	}
+
+    .imgstyle3{
+	 width: 200px;
+	 height: 200px;
+	 transition: width 300ms ease, height 200ms ease;
+	 }
+	 
+	 .imgstyle3:hover{
+	  width: 400px;
+	  height: 300px;
+	  }
+	}
+
+    .imgstyle4{
+	 width: 200px;
+	 height: 200px;
+	 transition: width 400ms ease, height 200ms ease;
+	 }
+	 
+	 .imgstyle4:hover{
+	  width: 500px;
+	  height: 300px;
+	  }
+	}
+
+    .imgstyle5{
+	 width: 200px;
+	 height: 200px;
+	 transition: width 300ms ease, height 200ms ease;
+	 }
+	 
+	 .imgstyle5:hover{
+	  width: 400px;
+	  height: 300px;
+	  }
+	}
+
+    .imgstyle6{
+	 width: 300px;
+	 height: 200px;
+	 transition: width 400ms ease, height 200ms ease;
+	 }
+	 
+	 .imgstyle6:hover{
+	  width: 400px;
+	  height: 300px;
+	  }
+	}
+
+    .imgstyle7{
+	 width: 200px;
+	 height: 200px;
+	 transition: width 300ms ease, height 200ms ease;
+	 }
+	 
+	 .imgstyle7:hover{
+	  width: 400px;
+	  height: 300px;
+	  }
+
+	}
+
+    .imgstyle8{
+	 width: 200px;
+	 height: 200px;
+	 transition: width 300ms ease, height 200ms ease;
+	 }
+	 
+	 .imgstyle8:hover{
+	  width: 400px;
+	  height: 300px;
+	  }
+	  .header {
+	      
+	      animation-name: header;
+		  animation-duration: 6s;
+		  animation-iteration-count: infinite;
+		  animation-timing-function: ease-in;
+		  animation-direction: alternates;
+		  }
+		@keyframes header{
+		5% {color: yellow;}
+		10% {color: red;}
+		20% {color: blue;}
+		30% {color: white;}
+		40% {color: orange;}
+		45% {color: pink;}
+		50% {color: black;}
+		55% {color: cyan;}
+		60% {color: Teal;}
+		65% {color: purple;}
+		70% {color: maroon;}
+		75% {color: indigo;}
+		80% {color: violet;}
+		85% {color: cerise;}
+		90% {color: brown;}
+		95% {color: royal blue;}
+		
+		}
+		
+		
+</head>
+</style>
+<body>
+
+<div class="header">
+  <h1> Well Come To Our Website </h1>
+  <p> Desing By Bibek subba and puja rai..</p>
+  
+</div>
+
+
+    <style>
+	
+  
+  /* Styling the body element
+        like body color and margin */
+ 
+        body {
+            background-color: #49108B;
+            margin: 20%;
+        }
+ 
+        /* Styling the Title and giving
+        shadow to the title */
+        #title {
+            text-align: center;
+            text-shadow: 5px 5px 5px white;
+            font-size: 7vh;
+        }
+ 
+        /* Setting width and display
+        type of image */
+        img {
+            display: inline-block;
+            width: 100%;
+        }
+ 
+        /* Setting font color and font
+        size of the image-caption */
+        #caption {
+            font-size: 17px;
+            font-family: Gill Sans;
+            color: green;
+        }
+ 
+        /* Styling the content of the page like-
+        padding, font-size, font color etc.*/
+        div#tribute-data {
+            background-color: #7E30E1;
+            box-shadow: 20px 20px 20px #98FB98;
+            font-family: Georgia;
+            padding: 25px 25px;
+            margin: 11px;
+            margin-top: 50px;
+        }
+ 
+        /* Styling the title of the content */
+        h1.title-APJ {
+            font-size: 35px;
+            color: black;
+            text-align: center;
+            text-shadow: 5px 5px 6px white;
+        }
+ 
+        /* Styling the link provided at the end */
+        #tribute-link {
+            text-decoration: none;
+            color: yellow;
+        
+        }
+    </style>
+</head>
+ 
+<body>
+    <main id="main">
+ 
+        <!-- Title of the page -->
+        <h1 id="title">
+            A. P. J. Abdul Kalam
+			  (1931-2015)
+        </h1> 
+		
+		<head>
+		    <style>
+			     img {
+				   border-radius: 30px;
+				  }
+		</style>
+		  </head>
+       
+		 
+ 
+        <div id="img">
+ 
+            <!--Image of the Tribute Person-->
+            <img src="https://interviewerpr.com/wp-content/uploads/2021/11/maxresdefault-27.jpg" width=auto height=100%/>
+			
+			<nav>
+					 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: green;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: black;
+}
+
+</style>
+</head>
+<body>
+<div class="scrollmenu">
+  <a href="#">Home</a>
+  <a href="#timeline">Timeline</a>
+  <a href="#books_info">Books</a>
+  <a href="#honours_info">Honours</a>
+  <a href="#quotes_info"> Famous quotes</a>
+  <a href="#image_info"> photos</a>
+  <a href="#speech_info">speech video</a>
+
+</div>
+
+ </nav>
+                 
+          </div>
+	          <div id="tribute-data">
+ 
+              <!--Achievements and other
+                details of the person-->
+                 <h1 class="title-APJ">
+                      Introduction
+           </h1>
+			 
+             <p> 
+               Avul Pakir Jainulabdeen Abdul Kalam , Indian scientist and honorable 11th president (2002-2007) of India
+                stepped to this world on october 15,1931. He played a leading role in devoloping missile and nuclear
+                weapon projects, which rewarded him with a nickname <i>The Missile Man </i>.</p>
+            <p>He was a very simple person who lived an unpretentious lifestyle. He had a keen interest in literature
+                and wrote poems. He never married. He always faced media himself for his failures while let others
+                address for the success. He remained active till the very end. He died while delivering a lecture at the
+                IIM.
+             
+            </p>
+			
+			  <section id="timeline">
+              <h2>Timeline</h2>
+            <ul>
+                <li><b>1931</b>-Born to a Tamil Muslim family in the pilgrimage centre of Rameswaram on Pamban Island,
+                    then in the Madras Presidency and now in the State of Tamil Nadu.</li>
+                <li><b>1954</b>-After completing his education at the Schwartz Higher Secondary School, Ramanathapuram,
+                    Kalam went on to attend Saint Joseph's College, Tiruchirappalli, then affiliated with the University
+                    of Madras, from where he graduated in physics</li>
+                <li><b>1955</b>-He moved to Madras to study aerospace engineering in Madras Institute of Technology.
+                </li>
+                <li><b>1960</b>-After graduating from the Madras Institute of Technology, Kalam joined the Aeronautical
+                    Development Establishment of the Defence Research and Development Organisation (DRDO) as a scientist
+                    where he started his career by designing a small hovercraft, but remained unconvinced by his choice
+                    of a job at DRDO.</li>
+                <li><b>1961</b>-Joined DRDO as a scientist.</li>
+                <li><b>1969</b>-Kalam was transferred to the Indian Space Research Organisation (ISRO) where he was the
+                    project director of India's first Satellite Launch Vehicle (SLV-III) which successfully deployed the
+                    Rohini satellite in near-earth orbit in July 1980.</li>
+                <li><b>1980</b>-Became the project Director for India's First Indegenous Satellite Program.</li>
+                <li><b>1980</b>-Was involved in the development of several Indegenous Missiles for India like Agni,
+                    Prithvi.</li>
+                <li><b>1981</b>-Awarded Padma Bhushan.</li>
+                <li><b>1990</b>-Awarded Padma Vibhushan.</li>
+                <li><b>1992</b>-Kalam started to serve as the Chief Scientific Adviser to the Prime Minister and the
+                    Secretary of the Defence Research and Development Organisation. It was this time when the the
+                    Pokhran-II nuclear tests were conducted which he played an intensive political and technological
+                    role.</li>
+                <li><b>1997</b>-Awarded Bharat Ratna.</li>
+                <li><b>2002</b>-Kalam served as the 11th President of India, succeeding K. R. Narayanan. He won the 2002
+                    presidential election with an electoral vote of 922,884, surpassing the 107,366 votes won by Lakshmi
+                    Sahgal. His term lasted from 25 July 2002 to 25 July 2007.</li>
+                <li><b>2012</b>-Kalam launched a programme for the youth of India called the <i>What Can I Give
+                        Movement</i>, with a central theme of defeating corruption.</li>
+                <li><b>2015</b>- Kalam travelled to Shillong to deliver a lecture on "Creating a Livable Planet Earth"
+                    at the Indian Institute of Management Shillong. While climbing a flight of stairs, he experienced
+                    some discomfort, but was able to enter the auditorium after a brief rest.At around 6:35 p.m. IST,
+                    only five minutes into his lecture, he collapsed.He was rushed to the nearby Bethany Hospital in a
+                    critical condition; upon arrival, he lacked a pulse or any other signs of life.Despite being placed
+                    in the intensive care unit, Kalam was confirmed dead of a sudden cardiac arrest at 7:45 p.m IST.His
+                    last words, to his aide Srijan Pal Singh, were reportedly: "Funny guy! Are you doing well?"
+                </li>
+
+            </ul>
+
+        </section>
+		 </section>
+             <section id="books_info">
+                     <h2>His Famous Books</h2>
+                     <p class="content">The People's President also had a blessed talent of writing books, which made him more admiring and inspiring.</p>
+            <ol>
+                <li>India 2020: A Vision for the New Millennium.</li>
+                <li>Wings of Fire: An Autobiography.</li>
+                <li>Ignited Minds: Unleashing the Power within India.</li>
+                <li>The Luminous Sparks: A Biography in Verse and Colours.</li>
+                <li>Guiding Souls: Dialogues on the Purpose of Life.</li>
+                <li>Mission of India: A Vision of Indian Youth.</li>
+            </ol>
+
+                <p class="more_books">For more books, <a
+                    href="https://www.jagranjosh.com/general-knowledge/list-of-books-written-by-dr-abdul-kalam-1509088012-1"
+                    target="_blank">Click here</a></p>
+
+        </section>
+        
+		 <section id="honours_info">
+            <h2>Honours of Kalam</h2>
+            <ul>
+                <li><b>1997</b>- Bharat Ratna, Indira Gandhi Award for national integration</li>
+                <li><b>1981</b>- Padma Bhushan</li>
+                <li><b>1990</b>- Padam Vibushan</li>
+                <li><b>2009</b>- hoover medal</li>
+                <li><b>1998</b>- Veer Savarkar Award</li>
+                <li><b>2011</b>- IEEE Honorary Award</li>
+                <li><b>2000</b>- Ramanujan Award</li>
+            </ul>
+         </section>
+            <section> 
+                -Dr. APJ Abdul Kalam
+           </section>
+		</div>
+ <section id="quotes_info">
+		 <h3> Famous qoutes by Abdul kalam </h3>
+		 
+			   
+    <div class="card">
+         <img class="imgstyle1" src="https://www.theeducationmagazine.com/wp-content/uploads/2020/03/23.jpg"> 
+   <div class="card">
+         <img class="imgstyle2" src="https://www.yourselfquotes.com/wp-content/uploads/APJ-Abdul-Kalam-Quotes14.png"> 
+   <div class="card">
+         <img class="imgstyle3" src="https://1.bp.blogspot.com/-TLcF5LRjf6Y/X7j5w2rpCTI/AAAAAAAAFw8/Vq6EhUjc9F43_MpwTKijaBPxGWlk7t_SgCLcBGAsYHQ/s1620/Inspiring%2BAPJ%2BAbdul%2BKalam%2BQuote%2Bimages8.jpg"> 
+   <div class="card">
+         <img class="imgstyle4" src="https://www.theeducationmagazine.com/wp-content/uploads/2020/03/13-640x426.jpg">
+   <div class="card">
+         <img class="imgstyle5" src="https://www.yourselfquotes.com/wp-content/uploads/APJ-Abdul-Kalam-Quotes7.png">
+  <div class="card">
+        <img class="imgstyle6" src="https://www.yourfates.com/wp-content/uploads/2019/07/apj-abdul-kalam-5.jpg">
+  <div class="card">
+        <img class="imgstyle7" src="https://th.bing.com/th/id/R.4bd1b6c9b2b5358e6fc2fb5e808194cf?rik=B34yPpabPeWtIw&riu=http%3a%2f%2fwww.scrolldroll.com%2fwp-content%2fuploads%2f2020%2f01%2fAPJ-Abdul-Kalam-Quotes-7.jpg&ehk=usVWM%2fazzoqm6j6Obk5dR83kbiEW3kYcx6Au%2fI4LDog%3d&risl=&pid=ImgRaw&r=0">
+    <div class="card">
+         <img class="imgstyle8" src="https://www.yourselfquotes.com/wp-content/uploads/APJ-Abdul-Kalam-Quotes4.png"> 
+    
+    </div>
+</section>
+	
+	   <section id="image_info">
+		 <h4> Apj abdul kalam childhood photos</h4>
+		 
+		    <img src="https://i2.wp.com/www.altnews.in/wp-content/uploads/2019/06/2019-06-01-20_18_44-He-didn%E2%80%99t-know-how-to-ride-a-bike_-Kalam%E2%80%99s-eccentricities-as-remembered-by-thos.jpg?resize=810%2C465" weidth="300" height="400">
+		 <div class="card">
+		 
+		     <img src="https://2.bp.blogspot.com/-fYTr944yTss/VcD6sWJ1KtI/AAAAAAAAAW8/A-uV3FJOIHM/s1600/IMG-20150804-WA0006.jpg" weidth="100" height="400">
+		 <div class="card">
+		 
+		      <img src="https://i.pinimg.com/originals/e7/1b/7b/e71b7b0e625b2a6b67f1bccf7b258fce.jpg" weidth="300" height="400">
+		 <div class="card">
+		 
+		      <img src="https://images.successstory.com/adminimg/image_uploads/content_images/abdul-kalam-early-life_1462448185.jpg">
+		 <div class="card">
+		 
+		      <img src="https://im.indiatimes.in/content/itimes/blog/2015/Sep/3/1441266761_3speechlecture775.jpg" weidth="300" height="400">
+		 <div class="card">
+		 
+		      <img src="https://i.ytimg.com/vi/8EhlkwG0DA4/maxresdefault.jpg">
+	</div>
+		 
+		   <section id="speech_info">
+		   <p> Kalam speech video </p>
+		   
+		 <iframe width="600" height="400" src="https://www.youtube.com/embed/i5WYp4wMXfc?si=TzOaa9EdXAsP3b6T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		 
+		 <iframe width="600" height="400" src="https://www.youtube.com/embed/3SDkzDlw1yc?si=qYCCTUGVI8uygtMn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		 </section>
+		 
+		 
+<style>
+
+
+h6{
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: yellow;
+}
+
+P {
+   color: cyan;
+   }
+   
+
+a {
+  text-decoration: none;
+  color: red;
+}
+</style>
+</head>
+     <body>
+
+<div>
+  <h6>CONCLUSION</h6>
+  <p>In tribute to Dr. APJ Abdul Kalam, let us remember and celebrate the life of a true visionary who propelled India into new frontiers of science and technology. His legacy lives on, urging us to dream big, work hard, and contribute to the progress of our nation.</p>
+  
+  </div>
+  
+   <footer>
+         <p>Read more about A. P. J. Abdul Kalam on <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam">Wikipedia</a>.</p>
+	</footer>
+<style>
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+    <a href="#" class="button"> Go To Home Page</a
+
+	          
+</body>
+</html>
